@@ -1,0 +1,165 @@
+body {
+    background-color: #d9dcd6;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+header nav {
+    padding-top: 15px;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    vertical-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+main p {
+    font-size: 16px;
+    width: 90%;
+    padding-left: 20px;
+}
+
+main embed {
+    width: 90%;
+    height: 100%;
+    padding-left: 20px;
+}
+
+main section div {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 20px;
+}
+
+figure {
+    flex: 1 0 0;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 25px;
+    padding: 10px;
+    min-width: 300px;
+    max-width: 400px;
+    box-shadow: 10px 10px 5px #969696;
+}
+
+figure figcaption {
+    background: #2a607c;
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+    border-start-start-radius: 25px 25px;
+    border-start-end-radius: 25px 25px;
+    text-align: center;
+    font-size: 24px;
+}
+
+figure a img {
+    width: 100%;
+    border-end-start-radius: 25px 25px;
+    border-end-end-radius: 25px 25px;
+}
+
+main h2 {
+    border-right: 5px solid #2a607c;
+    width: 10%;
+}
+
+main section {
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+footer {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+footer h2 {
+    display: inline-block;
+}
+
+footer nav {
+    padding-top: 5px;
+}
+
+@media screen and (max-width: 1200px) {
+    main section {
+        flex-direction: column;
+        border-bottom: 5px solid #2a607c;
+    }
+    main h2 {
+        border-right: 0px;
+        width: 100%;
+        text-align: center;
+    }
+    main p {
+        width: 100%;
+        text-align: center;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    main embed {
+        width: 100%;
+        height: 100%;
+    }
+    main section div {
+        padding-left: 0;
+    }
+    main figure {
+        max-width: 100%;
+        margin: 10px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    header h1 {
+        display: block;
+        text-align: center;
+    }
+    footer h2 {
+        display: block;
+        text-align: center;
+    }
+    nav {
+        float: none;
+    }
+    nav ul li {
+        display: block;
+        text-align: center;
+    }
+}
