@@ -1,0 +1,49 @@
+/* AboutMe.css */
+.about-me section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.about-header {
+    display: flex;
+    align-items: center; /* Align items vertically */
+    justify-content: center;
+    width: 100%; /* Full width of the container */
+    margin-bottom: 20px; /* Space between header and paragraph */
+}
+
+.about-me img {
+    border-radius: 50%;
+    border: 3px solid #ddd;
+    margin-right: 20px; /* Space between image and heading */
+}
+
+.about-me h1 {
+    font-size: 24px; /* Large font size for heading */
+    color: #333; /* Dark grey color for text */
+}
+
+.about-me p {
+    color: #333;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    padding: 0 20px;
+}
+
+/* .about-me-container {
+  display: block;
+  align-items: center;
+  max-width: 1200px;
+  padding: 20px;
+} */
+
+
