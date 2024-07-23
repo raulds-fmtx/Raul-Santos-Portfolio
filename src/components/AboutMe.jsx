@@ -1,7 +1,6 @@
 import React from "react";
 import "../styles/AboutMe.css";
 import profilePic from "../assets/profile-pic.jpg"; // Ensure this path is correct based on your project structure
-import js from "../../public/javascript-original.svg"
 
 
 function AboutMe() {
